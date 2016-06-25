@@ -2,23 +2,23 @@
 
     <div class="col-md-8">
 
-        <h2>简介</h2>
+        <h2>About me</h2>
 
-        <p>一名愉悦的开发者</p>
+        <p>a happy software engineer</p>
 
-        <h2>联系方式</h2>
+        <h2>Contact</h2>
 
         <ul>
             <li>Email：<a href="mailto:{{ site.email }}" target="_top">{{ site.email }}</a></li>
             <li>Website：<a href="{{ site.github_url }}">{{ site.github_url }}</a></li>
         </ul>
 
-        <h2>编程技术</h2>
+        <h2>Skill Keywords</h2>
 
         {% if site.skill_software_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">软件技术</h3>
+                <h3 class="panel-title">Software Engineer Keywords</h3>
             </div>
             <div class="panel-body">
                 {% for keyword in site.skill_software_keywords %}
@@ -31,7 +31,7 @@
         {% if site.skill_mobile_app_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">移动开发</h3>
+                <h3 class="panel-title">Mobile Developer Keywords</h3>
             </div>
             <div class="panel-body">
                 {% for keyword in site.skill_mobile_app_keywords %}
@@ -44,7 +44,7 @@
         {% if site.skill_web_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Web开发</h3>
+                <h3 class="panel-title">Web Developer Keywords</h3>
             </div>
             <div class="panel-body">
                 {% for keyword in site.skill_web_keywords %}
@@ -57,7 +57,7 @@
     </div>
 
     <div class="col-md-4">
-        {% include sidebar-popular-repo.html %}
+        {% include sidebar-popular-repo-en.html %}
     </div>
 
 </div>

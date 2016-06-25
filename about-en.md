@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 简介
+title: About Me
 menu: about
-subtitle:   <h3>下载简历</h3>
+subtitle:   <h3>Download My CV</h3>
             <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/zty_curriculum_vitae(chinese).pdf" target="_blanks">
                 <span class="flag-icon flag-icon-cn"></span> 中文
             </a>
@@ -13,4 +13,4 @@ subtitle:   <h3>下载简历</h3>
 css: ['about.css', 'sidebar-popular-repo.css', '../../bower_components/flag-icon-css/css/flag-icon.min.css']
 ---
 
-{% include about.html %}
+{% include about-en.html %}

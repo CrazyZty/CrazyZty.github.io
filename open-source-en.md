@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 开源项目
+title: Open Source Projects
 menu: open-source
 pattern: Open Source Projects
 css: ['open-source.css']
 javascript: ['underscore-min.js']
 ---
-{% include open-source-page.html %}
+{% include open-source-page-en.html %}
