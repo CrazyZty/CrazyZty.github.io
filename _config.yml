@@ -56,22 +56,22 @@ navs:
   -
     href: /
     label: 主页
+    pattern: Home
 
   -
     href: /open-source
     label: 开源项目
+    pattern: Open Source Projects
 
   -
     href: /blog
     label: 博客
-
-  -
-    href: /bookmark
-    label: 书签
+    pattern: All My Blogs
 
   -
     href: /about
     label: 简介
+    pattern: About
 
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show

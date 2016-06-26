@@ -2,7 +2,6 @@
 layout: page
 title: 博客
 subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; 记录所学知识
-menu: blog
 css: ['blog-page.css']
 pattern: All My Blogs
 ---
