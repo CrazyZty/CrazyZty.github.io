@@ -44,13 +44,6 @@ kramdown:
   input: GFM
   enable_coderay: false
 
-# Disque
-disque:  my_disque_settings # ex. httpdongchuangithubio.disqus.com
-
-# Pagination
-paginate: 10
-paginate_path: 'page:num'
-
 # Navigation
 navs:
   -
@@ -73,15 +66,21 @@ navs:
     label: 简介
     pattern: About
 
+# Pagination
+paginate: 10
+paginate_path: 'page:num'
+
 # Sidebar to show popular repo
 side_bar_repo_limit: 5 # Number of repos to show
+
+# Disqus Comments
+disqus: crazyzty.disqus.com
 
 # Google Analytics
 analytics :
   provider : google
   google :
     tracking_id : 'UA-80001948-1'
-
 
 # For about.html. Fell free to create your own!
 skill_software_keywords: [Java, C, C++, MySQL, SQLite, Design Patterns]
